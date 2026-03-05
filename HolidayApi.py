@@ -32,7 +32,7 @@ VALID_TO   = "2023-12-31"
 all_rows = []
 
 #generating dictionary with Params for request
-for i in GER_STATES:
+for state in GER_STATES:
     params = {
         "countryIsoCode": "DE",
         "subdivisionCode": state,
@@ -81,4 +81,14 @@ for i, row in df.iterrows():
 
 df_daily = pd.DataFrame(daily_rows).drop_duplicates() #new Table from new Dataset
 
-df_daily.to_csv("school_holidays_DE_2023_daily.csv", index=False, encoding="utf-8") #exporting CSV
+#making a folder for better order
+filepath = os.path.join(OUTDIR, "school_holidays_DE_2023_daily.csv")
+
+df_daily.to_csv(
+    filepath,
+    index=False,
+    encoding="utf-8"
+)
+
+print("saved:")
+print(filepath)
