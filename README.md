@@ -5,20 +5,15 @@ Main Research-Question:
 To what extent do weather conditions and public holidays influence electricity consumption and generation in Germany?
 
 Sub-Research:
-How do electricity consumption and electricity generation in Germany change when temperature is low versus high?
+Do public holidays in Germany show a measurable difference in daily electricity consumption compared to regular working days ?
 
-Does rain have a clear effect on electricity consumption and electricity generation in Germany (especially solar/PV output)?
+How strongly do weather conditions (especially wind and sunshine) explain daily electricity generation from wind (onshore/offshore) and PV in Germany?
 
-Does strong wind have a clear effect on electricity consumption and electricity generation in Germany (especially wind power output)?
+How does Germany’s generation mix shift on days with high renewable output (wind/PV) — and which conventional sources (lignite, hard coal, gas) are reduced the most?
 
-Time-of-Day Effects (Consumption & Generation)
+Do electricity consumption and the generation mix differ between Germany’s transmission system operator (TSO) control areas (50Hertz, Amprion, TenneT, TransnetBW) — and can these differences be explained by regional weather conditions?
 
-Is the temperature effect stronger in the morning and evening than around midday—for both consumption and generation—and does this change net load (consumption minus generation)?
+Are public-holiday effects (e.g., lower consumption) different in strength across the TSO control areas?
 
-Holiday Effects 
+How accurate are SMARD day-ahead forecasts for wind and PV compared to actual generation — and does the forecast error vary by season (winter vs. summer) and potentially by TSO control area? 
 
-Is electricity consumption in Schleswig-Holstein on public holidays different from normal working days, and does electricity generation in Germany show systematic differences on the same days?
-
-Are public-holiday effects different in winter than in summer, öboth for consumption and for generation (Germany, e.g., PV/wind mix)?
-
-Combined Effects (Interaction of Consumption & Generation)
