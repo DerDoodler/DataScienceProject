@@ -1,19 +1,32 @@
-# DataScienceProject
-This repository investigates how external factors such as weather conditions and public holidays influence electricity consumption and generation in Germany.
+Main Research Question
 
-Main Research-Question:
-To what extent do weather conditions and public holidays influence electricity consumption and generation in Germany?
+To what extent do weather conditions and public holidays influence electricity consumption and electricity generation in Germany?
 
-Sub-Research:
-Do public holidays in Germany show a measurable difference in daily electricity consumption compared to regular working days ?
+Sub-Research Questions
+1 — Public Holidays & Electricity Consumption (Germany-wide)
 
-How strongly do weather conditions (especially wind and sunshine) explain daily electricity generation from wind (onshore/offshore) and PV in Germany?
+Do public holidays and school holidays in Germany show a measurable difference in daily electricity consumption compared to regular working days when analyzing Germany as a whole?
 
-How does Germany’s generation mix shift on days with high renewable output (wind/PV) — and which conventional sources (lignite, hard coal, gas) are reduced the most?
+2 — Seasonal Patterns in Electricity Consumption
 
-Do electricity consumption and the generation mix differ between Germany’s transmission system operator (TSO) control areas (50Hertz, Amprion, TenneT, TransnetBW) — and can these differences be explained by regional weather conditions?
+How does electricity consumption vary across seasons in Germany, and how does this relate to seasonal weather conditions?
 
-Are public-holiday effects (e.g., lower consumption) different in strength across the TSO control areas?
+3 — Weather Influence on Renewable Generation
 
-How accurate are SMARD day-ahead forecasts for wind and PV compared to actual generation — and does the forecast error vary by season (winter vs. summer) and potentially by TSO control area? 
+How strongly do weather conditions (especially wind speed and sunshine / solar radiation) explain daily electricity generation from wind and photovoltaic (PV) in Germany?
 
+4 — Generation Mix during High Renewable Output
+
+How does Germany’s electricity generation mix change on days with high renewable output (wind and PV), and which conventional sources (lignite, hard coal, gas) decrease the most?
+
+5 — Regional Differences in Electricity Consumption
+
+How does electricity consumption differ between Germany’s TSO control areas (50Hertz, Amprion, TenneT, TransnetBW), and which factors may explain these regional differences?
+
+6 — Correlation between Electricity Consumption and Generation in TSO Regions
+
+To what extent is electricity consumption correlated with electricity generation within Germany’s TSO control areas, and are there observable relationships between regional demand and regional electricity production?
+
+7 — Renewable Generation and Electricity Prices
+
+How are electricity prices related to renewable electricity generation levels, and do high renewable generation periods correspond to lower electricity prices in Germany?
