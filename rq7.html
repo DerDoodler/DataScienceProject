@@ -54,15 +54,67 @@
     <section class="card">
       <h2>Research Focus</h2>
       <p>
-        This analysis examines whether electricity prices decrease when wind and
-        photovoltaic generation are high.
+        This analysis investigates the relationship between electricity prices and renewable electricity 
+        generation in Germany, focusing on whether higher wind and solar generation tends to coincide with 
+        lower market prices.
       </p>
     </section>
+    <section class="card">
+    <h2>Key Results and Interpretation</h2>
+    <p>
+      The results indicate a clear negative relationship between renewable electricity
+      generation and market prices in Germany. Across the full dataset from 2022 to
+      2025, the overall correlation between total renewable generation and electricity
+      prices is <strong>r = -0.47</strong>, suggesting that higher renewable output is
+      generally associated with lower market prices.
+    </p>
+    <p>
+      This relationship is visible in each individual year as well, with yearly
+      correlations ranging from <strong>r = -0.62</strong> in 2022 to
+      <strong>r = -0.72</strong> in 2025. This shows that the inverse relationship
+      remains consistent over time, even though the strength of the pattern varies
+      slightly across years.
+    </p>
+    <p>
+      The component analysis also shows that this effect is not equally strong for
+      all renewable sources. <strong>Wind onshore</strong> has the clearest negative
+      relationship with electricity prices at <strong>r = -0.39</strong>, followed by
+      <strong>wind offshore</strong> at <strong>r = -0.28</strong> and
+      <strong>hydropower</strong> at <strong>r = -0.23</strong>. In contrast,
+      <strong>photovoltaic generation</strong> is only weakly negatively correlated
+      at <strong>r = -0.06</strong>, while biomass and other renewables show small
+      positive correlations.
+    </p>
+    <p>
+      A key feature of the visualizations is the exceptional price peak in 2022.
+      Compared with 2023 to 2025, the 2022 observations show much higher and more
+      volatile electricity prices. This is consistent with the broader European
+      energy crisis, which was strongly influenced by the war in Ukraine and the
+      reduction, and later halt, of Russian gas supplies. Since gas-fired power
+      plants often play an important role in electricity price formation, the gas
+      supply shock translated into unusually high electricity prices in Germany.
+    </p>
+    <p>
+      Overall, the findings suggest that higher renewable generation tends to reduce
+      electricity prices, but this relationship can be distorted during crisis
+      periods such as 2022, when external market shocks pushed prices to unusually
+      high levels.
+    </p>
 
+    </section>
     <section class="card">
       <h2>Visualization 1 — Renewables versus Price Time Series</h2>
       <p>
-        This chart shows how renewable generation and electricity prices develop over time.
+        This time-series graph shows renewable generation and electricity prices in
+        Germany from 2022 to 2025. The electricity price line reaches its highest
+        levels in 2022, with several pronounced peaks that are clearly above the
+        values in the following years.
+      </p>
+      <p>
+        Across the full period, higher renewable generation often appears alongside
+        lower electricity prices, while lower generation is more often accompanied by
+        higher prices. After 2022, the price series becomes noticeably lower and more
+        stable.
       </p>
       <iframe
         class="chart-frame"
@@ -74,8 +126,16 @@
     <section class="card">
       <h2>Visualization 2 — Renewables versus Price Scatter</h2>
       <p>
-        This scatter plot highlights the relationship between renewable generation levels and electricity prices.
-      </p>
+  This scatterplot shows the relationship between renewable generation and
+  electricity prices in Germany from 2022 to 2025. The points follow a clear
+  downward pattern, meaning that higher renewable generation levels are generally
+  associated with lower electricity prices.
+</p>
+<p>
+  The 2022 observations stand out most clearly, with several points reaching much
+  higher price levels than the other years. In contrast, the data points from
+  2023 to 2025 are more concentrated in a lower price range.
+</p>
       <iframe
         class="chart-frame"
         src="Fragendiagramme/Frage7/renewables_vs_price_scatter.html"
@@ -86,8 +146,15 @@
     <section class="card">
       <h2>Visualization 3 — Renewable Components and Price Correlation</h2>
       <p>
-        This chart examines how different renewable components are associated with electricity prices.
-      </p>
+  This bar chart compares the correlation values of different renewable generation
+  components with electricity prices. Wind onshore shows the strongest negative
+  correlation, followed by wind offshore and hydropower.
+</p>
+<p>
+  Photovoltaic generation is close to zero, while biomass and other renewables
+  show small positive correlations. Overall, the chart highlights that the
+  relationship with electricity prices differs across renewable sources.
+</p>
       <iframe
         class="chart-frame"
         src="Fragendiagramme/Frage7/renewable_components_price_correlation.html"
