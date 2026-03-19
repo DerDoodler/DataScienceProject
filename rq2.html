@@ -62,35 +62,42 @@
     <section class="card">
       <h2>Key Results</h2>
       <p>
-        The analysis of the data from 2022 to 2025 shows a clear seasonal
-        pattern in electricity consumption in Germany. Winter has the highest
-        average daily consumption, while summer has the lowest. Spring and
-        autumn lie in between, with autumn above spring.
+        Across both visualizations, the results show a clear seasonal pattern
+        in electricity consumption in Germany. Winter has the highest average
+        electricity consumption, while summer has the lowest. Spring and
+        autumn lie in between, with autumn slightly above spring.
       </p>
       <p>
-        The average daily electricity consumption is approximately
-        <strong>2.25 million MWh</strong> in winter,
-        <strong>2.08 million MWh</strong> in autumn,
-        <strong>2.01 million MWh</strong> in spring, and
-        <strong>1.91 million MWh</strong> in summer.
+        In the seasonal chart, average electricity consumption is
+        approximately <strong>1.39 million MWh</strong> in winter,
+        <strong>1.28 million MWh</strong> in autumn,
+        <strong>1.26 million MWh</strong> in spring, and
+        <strong>1.19 million MWh</strong> in summer.
       </p>
       <p>
-        This means the ranking is <strong>Winter &gt; Autumn &gt; Spring &gt; Summer</strong>.
-        The difference between winter and summer is substantial, with winter
-        consumption being about <strong>18 % higher</strong> than summer consumption.
+        The regional scatter plot also shows a clear negative relationship
+        between temperature and electricity consumption. Across all four TSO
+        zones, higher maximum temperatures are generally associated with lower
+        daily electricity consumption.
       </p>
       <p>
-        In the merged dataset, electricity consumption is moderately negatively
-        correlated with temperature. The correlation with maximum temperature is
-        approximately <strong>-0.44</strong>, and the correlation with minimum
-        temperature is also approximately <strong>-0.44</strong>.
+        Overall, the results indicate that electricity consumption is highest
+        in colder seasons and decreases as temperatures rise, with similar
+        temperature-related patterns visible across the German TSO regions.
       </p>
     </section>
 
     <section class="card">
       <h2>Visualization 1 — Seasonal Consumption and Weather in Germany</h2>
       <p>
-        This chart shows the seasonal development of electricity consumption and related weather conditions in Germany.
+        This chart shows seasonal electricity consumption and related weather
+        conditions in Germany. At the bottom of the chart, we see the four
+        seasons winter, spring, summer, and autumn. The left vertical scale
+        shows average electricity consumption in MWh, while the right vertical
+        scale shows the weather values for average temperature and sunshine
+        duration. The chart shows that electricity consumption is highest in
+        winter and lowest in summer, while temperature and sunshine peak in
+        summer.
       </p>
       <iframe
         class="chart-frame"
@@ -102,7 +109,12 @@
     <section class="card">
       <h2>Visualization 2 — Regional Consumption versus Temperature</h2>
       <p>
-        This chart compares electricity consumption and temperature patterns across regions.
+        This scatter plot compares daily electricity consumption and maximum
+        temperature across the four German TSO regions. The horizontal axis
+        shows maximum temperature in °C, while the vertical scale shows daily
+        consumption in MWh. Each point represents an observation, and the trend
+        lines show that higher temperatures are generally linked to lower
+        consumption in all four regions.
       </p>
       <iframe
         class="chart-frame"
@@ -115,26 +127,26 @@
       <h2>Interpretation</h2>
       <p>
         Electricity consumption in Germany shows a clear seasonal pattern.
-        Consumption is highest in winter and lowest in summer, which closely
-        matches the temperature structure in the weather data.
+        Consumption is highest in winter and lowest in summer, which matches
+        the general temperature structure shown in the seasonal chart.
       </p>
       <p>
-        A plausible explanation is that colder weather increases electricity
-        demand through higher heating-related demand, more lighting demand during
-        darker months, and generally higher seasonal energy use in households and
-        parts of the economy.
+        A likely explanation is that colder weather increases electricity
+        demand through higher heating-related demand, more lighting demand
+        during darker months, and generally higher seasonal energy use in
+        households and parts of the economy.
       </p>
       <p>
-        By contrast, summer has the lowest demand because heating needs are
-        minimal and daylight hours are longer. In this dataset, wind and
-        precipitation show much weaker relationships with consumption than
-        temperature does, so temperature appears to be the main seasonal weather
-        factor behind the observed pattern.
+        The regional scatter plot supports this interpretation, because all
+        four TSO regions show a negative relationship between maximum
+        temperature and electricity consumption. This suggests that temperature
+        is an important seasonal factor behind the observed consumption pattern.
       </p>
       <p>
-        <strong>Summary:</strong> Electricity consumption in Germany is strongly
-        seasonal, with winter demand clearly above summer demand, and temperature
-        is the most important weather-related factor behind this pattern.
+        <strong>Summary:</strong> Electricity consumption in Germany is clearly
+        seasonal, with the highest demand in winter and the lowest in summer,
+        and higher temperatures are generally associated with lower
+        electricity consumption.
       </p>
     </section>
   </main>
