@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import json
 import time
-
+# Parts of this code are LLM generated/were created with the help of LLMs
 # Output directory for exported holiday data
 OUTDIR = "output_openholidays_2024"
 os.makedirs(OUTDIR, exist_ok=True)
