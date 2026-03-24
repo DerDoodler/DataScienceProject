@@ -109,17 +109,13 @@ The visualizations were created in Python and exported as **HTML files**. These 
 
 ## Project Files
 
-The repository contains the Python scripts used for data collection, preprocessing, analysis, and visualization, as well as the website files used to present the results.
-
-Depending on the project structure, the repository may include:
+The repository contains the Python scripts used for data collection, preprocessing, analysis, and visualization, as well as the website files used to present the results:
 
 - Python scripts for fetching and processing API data
 - analysis scripts for the individual research questions
 - exported visualization files in HTML format
 - website files such as HTML, CSS, and JavaScript
 - documentation files such as this README
-
-The exact file and folder structure may vary depending on the final project version.
 
 ## Website
 
