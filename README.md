@@ -46,9 +46,10 @@ This is important because electricity data in Germany is structured by transmiss
 
 The project uses the following data sources:
 
-- **SMARD API** for electricity generation, electricity consumption, and electricity price data
-- **Open-Meteo API** for historical weather data
-- **Public holiday and school holiday data** for calendar-based analysis
+- **[SMARD API](https://www.smard.de/en)** for electricity generation, electricity consumption, and electricity price data
+- **[Open-Meteo API](https://open-meteo.com/)** for historical weather data
+- **[OpenHolidays API](https://www.openholidaysapi.org/en/)** for public holidays and school holidays in Germany
+
 
 ### Main Variables
 
