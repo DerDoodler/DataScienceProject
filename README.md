@@ -154,8 +154,6 @@ This makes GitHub Pages a practical solution for projects that are based on stat
 
 ### Project Links
 
-Replace these placeholders with your final links:
-
 - **Live website:** `https://waledoc.github.io/DataScienceProject/index.html`
 - **Repository:** `https://github.com/Waledoc/DataScienceProject`
 
